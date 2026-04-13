@@ -1,4 +1,3 @@
-<img src="./images/diagram.png" width="600px"></img>
 
 ## Text2Concept — in PyTorch
 
