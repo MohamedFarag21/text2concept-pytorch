@@ -1,10 +1,18 @@
-
+<img src="./images/diagram.png" width="600px"></img>
 
 ## Text2Concept — in PyTorch
+
+[![PyPI version](https://badge.fury.io/py/text2concept-pytorch.svg)](https://badge.fury.io/py/text2concept-pytorch)
 
 Implementation of [Text2Concept: Concept Activation Vectors Directly from Text](https://openaccess.thecvf.com/content/CVPR2023W/XAI4CV/papers/Moayeri_Text2Concept_Concept_Activation_Vectors_Directly_From_Text_CVPRW_2023_paper.pdf) (CVPR Workshop 2023) in PyTorch.
 
 Obtain Concept Activation Vectors for **any** vision encoder directly from text — no labelled concept data required.
+
+## Real Training Example
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MohamedFarag21/text2concept-pytorch/blob/main/real_test.ipynb)
+
+Train on CIFAR-10 for 30 epochs — see `real_test.ipynb` for the full example including zero-shot classification, concept similarity, and distribution shift diagnosis.
 
 ## Install
 
